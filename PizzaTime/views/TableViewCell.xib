@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="262" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="PizzaTime" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="262"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="261.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dfr-eC-Vmb">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="261.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_PizzaIcon" translatesAutoresizingMaskIntoConstraints="NO" id="dHt-iR-6YX">
+                                <rect key="frame" x="-31" y="13" width="154" height="235.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cheese Garden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQe-GA-d6W">
+                                <rect key="frame" x="146" y="52.5" width="220" height="26"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORDERED 91 TIMES TODAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lrd-nI-FiU">
+                                <rect key="frame" x="146" y="133.5" width="200" height="16"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.41210809350013733" green="0.41482606530189514" blue="0.57684189081192017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyu-dQ-wp9">
+                                <rect key="frame" x="146" y="169.5" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.907085120677948" green="0.32223433256149292" blue="0.32323139905929565" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="H8W-qG-M0C"/>
+                                    <constraint firstAttribute="height" constant="50" id="Pgl-s6-aUj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <state key="normal" title="CUSTOMIZE">
+                                    <color key="titleColor" red="0.92953687906265259" green="0.92801922559738159" blue="0.99617260694503784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vL-YW-Wiv">
+                                <rect key="frame" x="307.5" y="169.5" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.90708512070000002" green="0.32223433260000001" blue="0.32323139909999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3aa-9S-zkV"/>
+                                    <constraint firstAttribute="width" constant="50" id="J9M-gg-NZo"/>
+                                </constraints>
+                                <state key="normal" image="Image_CartIcon"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_ChiliIcon" translatesAutoresizingMaskIntoConstraints="NO" id="I6i-8D-rG4">
+                                <rect key="frame" x="188" y="98.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="KeR-nK-jDk"/>
+                                    <constraint firstAttribute="height" constant="20" id="peg-IK-16B"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_ChiliIcon" translatesAutoresizingMaskIntoConstraints="NO" id="fV9-mf-HnG">
+                                <rect key="frame" x="204" y="98.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="lmP-qm-qxt"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_ChiliIcon" translatesAutoresizingMaskIntoConstraints="NO" id="3wu-OC-if4">
+                                <rect key="frame" x="220" y="98.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="zAo-0H-szN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_ChiliIcon" translatesAutoresizingMaskIntoConstraints="NO" id="8dq-Sg-IAA">
+                                <rect key="frame" x="236" y="98.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="ZWo-dO-TLY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.078953094780445099" green="0.090785779058933258" blue="0.26701065897941589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bQe-GA-d6W" firstAttribute="centerX" secondItem="dfr-eC-Vmb" secondAttribute="centerX" multiplier="1.3" id="2aC-ws-Fzq"/>
+                            <constraint firstItem="3wu-OC-if4" firstAttribute="leading" secondItem="I6i-8D-rG4" secondAttribute="trailing" constant="12" id="5td-1I-ivj"/>
+                            <constraint firstItem="fV9-mf-HnG" firstAttribute="bottom" secondItem="3wu-OC-if4" secondAttribute="bottom" id="7an-tf-Y3S"/>
+                            <constraint firstItem="pyu-dQ-wp9" firstAttribute="leading" secondItem="dHt-iR-6YX" secondAttribute="trailing" constant="23" id="8ls-qO-1Ga"/>
+                            <constraint firstItem="Lrd-nI-FiU" firstAttribute="leading" secondItem="dHt-iR-6YX" secondAttribute="trailing" constant="23" id="CQA-X1-YK9"/>
+                            <constraint firstItem="4vL-YW-Wiv" firstAttribute="top" secondItem="Lrd-nI-FiU" secondAttribute="bottom" constant="20" id="GrR-6h-9uY"/>
+                            <constraint firstItem="I6i-8D-rG4" firstAttribute="leading" secondItem="dfr-eC-Vmb" secondAttribute="leading" constant="188" id="IJw-9x-W3R"/>
+                            <constraint firstItem="dHt-iR-6YX" firstAttribute="centerY" secondItem="dfr-eC-Vmb" secondAttribute="centerY" id="KAY-vs-kKf"/>
+                            <constraint firstItem="3wu-OC-if4" firstAttribute="bottom" secondItem="8dq-Sg-IAA" secondAttribute="bottom" id="Lil-a0-RVK"/>
+                            <constraint firstItem="8dq-Sg-IAA" firstAttribute="leading" secondItem="fV9-mf-HnG" secondAttribute="trailing" constant="12" id="PIb-qz-JxB"/>
+                            <constraint firstItem="bQe-GA-d6W" firstAttribute="height" secondItem="dfr-eC-Vmb" secondAttribute="height" multiplier="0.1" id="RoU-RJ-KC3"/>
+                            <constraint firstItem="bQe-GA-d6W" firstAttribute="width" secondItem="dfr-eC-Vmb" secondAttribute="width" multiplier="0.5" id="S5c-Bx-w7X"/>
+                            <constraint firstItem="pyu-dQ-wp9" firstAttribute="top" secondItem="Lrd-nI-FiU" secondAttribute="bottom" constant="20" id="SOy-Zs-bdH"/>
+                            <constraint firstItem="8dq-Sg-IAA" firstAttribute="centerX" secondItem="Lrd-nI-FiU" secondAttribute="centerX" id="Tby-Cq-2zf"/>
+                            <constraint firstItem="dHt-iR-6YX" firstAttribute="width" secondItem="dfr-eC-Vmb" secondAttribute="width" multiplier="0.35" id="VXI-oV-Joe"/>
+                            <constraint firstItem="pyu-dQ-wp9" firstAttribute="top" secondItem="dHt-iR-6YX" secondAttribute="bottom" constant="-79" id="b4D-L4-iuW"/>
+                            <constraint firstItem="I6i-8D-rG4" firstAttribute="leading" secondItem="dHt-iR-6YX" secondAttribute="trailing" constant="65" id="btM-9u-5wR"/>
+                            <constraint firstItem="Lrd-nI-FiU" firstAttribute="top" secondItem="I6i-8D-rG4" secondAttribute="bottom" constant="15" id="fEt-jg-42G"/>
+                            <constraint firstItem="dHt-iR-6YX" firstAttribute="height" secondItem="dfr-eC-Vmb" secondAttribute="height" multiplier="0.9" id="hkM-gl-W1E"/>
+                            <constraint firstItem="fV9-mf-HnG" firstAttribute="leading" secondItem="dHt-iR-6YX" secondAttribute="trailing" constant="81" id="jaV-O4-Fr8"/>
+                            <constraint firstItem="I6i-8D-rG4" firstAttribute="top" secondItem="fV9-mf-HnG" secondAttribute="top" id="lf5-AR-Z6o"/>
+                            <constraint firstItem="bQe-GA-d6W" firstAttribute="centerY" secondItem="dfr-eC-Vmb" secondAttribute="centerY" multiplier="0.5" id="mzH-lo-XBy"/>
+                            <constraint firstItem="3wu-OC-if4" firstAttribute="top" secondItem="8dq-Sg-IAA" secondAttribute="top" id="paS-pE-q3z"/>
+                            <constraint firstItem="I6i-8D-rG4" firstAttribute="bottom" secondItem="fV9-mf-HnG" secondAttribute="bottom" id="sjB-EH-LV3"/>
+                            <constraint firstItem="bQe-GA-d6W" firstAttribute="leading" secondItem="dHt-iR-6YX" secondAttribute="trailing" constant="23" id="vbZ-i5-fJG"/>
+                            <constraint firstItem="I6i-8D-rG4" firstAttribute="top" secondItem="bQe-GA-d6W" secondAttribute="bottom" constant="20" id="w3Z-qK-ygG"/>
+                            <constraint firstItem="fV9-mf-HnG" firstAttribute="top" secondItem="3wu-OC-if4" secondAttribute="top" id="w8L-UK-Ulc"/>
+                            <constraint firstItem="4vL-YW-Wiv" firstAttribute="leading" secondItem="pyu-dQ-wp9" secondAttribute="trailing" constant="11.5" id="xZ6-JW-lL2"/>
+                            <constraint firstItem="dHt-iR-6YX" firstAttribute="centerX" secondItem="dfr-eC-Vmb" secondAttribute="centerX" multiplier="0.3" id="y22-fN-IyU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dfr-eC-Vmb" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VeT-NI-u0G"/>
+                    <constraint firstItem="dfr-eC-Vmb" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="VmL-Bx-yBS"/>
+                    <constraint firstItem="dfr-eC-Vmb" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="YiE-cg-0BQ"/>
+                    <constraint firstItem="dfr-eC-Vmb" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="zCx-mq-5O9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="370" y="81"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Image_CartIcon" width="30" height="30"/>
+        <image name="Image_ChiliIcon" width="16" height="16"/>
+        <image name="Image_PizzaIcon" width="154" height="255"/>
+    </resources>
+</document>
